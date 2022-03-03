@@ -24,7 +24,7 @@ namespace GradeBook.GradeBooks
         public void AddStudent(Student student)
         {
             if (string.IsNullOrEmpty(student.Name))
-                throw new ArgumentException("A Name is required to add a student to a gradebook.");
+                throw new ArgumentException("A Name is required to add a student to a gradebook.");         
             Students.Add(student);
         }
 
